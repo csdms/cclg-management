@@ -33,15 +33,22 @@
 {% block login %}
 <div id="login-main" class="container">
 
-<div style="text-align: center;">
+<div style="text-align:center;">
   <img alt="CICESEG" style="width:50%;" src="https://raw.githubusercontent.com/csdms/ciceseg-management/main/ciceseg-logo-transparent.png">
 </div>
 
-<div style="text-align: center; margin-bottom:20px;">
+<div style="text-align:center">
   <h1>Landslide Modeling Portal</h1>
 </div>
 
-    <form action="{{login_url}}?next={{next}}" method="post" role="form">
+<div style="margin-top:50px; padding-left:30%; padding-right:30%; text-align:center; font-size:90%;">
+  <p>The Collaborative Center for Landslides and Ground Failure Geohazards (CICESEG) is supported by the U.S. National Science Foundation.</p>
+  <a href="https://www.nsf.gov" target="_blank">
+    <img alt="National Science Foundation" style="width:50px;" src="https://raw.githubusercontent.com/csdms/ciceseg-management/main/nsf1.gif">
+  </a>
+</div>
+
+    <form action="{{login_url}}?next={{next}}" method="post" role="form" style="vertical-align:top;">
         <div class="auth-form-header" style="background:#6286f1;">
             Sign In
         </div>
@@ -86,14 +93,6 @@
                 <a href="{{ base_url }}signup"> Sign up</a> to create a new account.
             </p>
             {% endif %}
-        </div>
-
-
-        <div style="margin-top:20px; padding-left:10%; padding-right:10%; text-align:center; font-size:66%;">
-          <p>The Collaborative Center for Landslides and Ground Failure Geohazards (CICESEG) is supported by the U.S. National Science Foundation.</p>
-          <a href="https://www.nsf.gov" target="_blank">
-            <img alt="National Science Foundation" style="width:50px;" src="https://raw.githubusercontent.com/csdms/ciceseg-management/main/nsf1.gif">
-          </a>
         </div>
 
     </form>
