@@ -16,6 +16,13 @@ hosted at https://landslides.openearthscape.org.
   issue](https://github.com/jupyterhub/jupyterhub/issues/1385).
 * `requirements.txt`: Software required for the Portal, installed in the base
   environment.
+* `landslides.ipynb`: Notebook automatically displayed on login. Place
+  in `/etc/skel`, then set
+
+  `c.Spawner.default_url = "/lab/tree/landslides.ipynb"`
+
+  in `/opt/tljh/hub/lib/python3.8/site-packages/tljh/configurer.py`.
+
 
 ## Acknowledgments
 
