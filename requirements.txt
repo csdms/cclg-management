@@ -1,23 +1,30 @@
-  ipykernel
-  numpy
-  scipy
-  xarray
-  pandas
-  matplotlib
-  notebook
-  bmipy
-  pymt >=1.3
-  landlab >=2.5
-  terrainbento
-  pymt_cem
-  pymt_child
-  pymt_hydrotrend
-  pymt_sedflux
-  bmi-topography
-  bmi-geotiff
-  imageio
-  tqdm
-  numba
-  scikit-image
-  pillow
-  cartopy
+ipykernel
+numpy
+scipy
+xarray
+rioxarray
+cftime
+pandas
+matplotlib
+notebook
+bmipy
+pymt >=1.3
+landlab >=2.5
+terrainbento
+pymt_cem
+pymt_child
+pymt_hydrotrend
+pymt_topography
+pymt_sedflux
+bmi-topography
+bmi-geotiff
+tqdm
+numba
+scikit-image
+imageio
+pillow
+cartopy
+cdsapi
+xesmf
+# pip install pymt-era5 imageio_ffmpeg
+
