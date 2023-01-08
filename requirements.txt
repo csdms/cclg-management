@@ -26,5 +26,5 @@ pillow
 cartopy
 cdsapi
 xesmf
-# pip install pymt-era5 imageio_ffmpeg
+# sudo -E pip install pymt-era5 imageio_ffmpeg
 
