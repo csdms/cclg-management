@@ -7,6 +7,13 @@ hosted at https://landslides.openearthscape.org.
 
 ## Files
 
+* `login.html`: Custom FirstUseAuthenticator login page. It directs to a Google Form to request a login. Place this file in
+
+  `/opt/tljh/hub/share/jupyterhub/templates`
+
+  overwriting the existing file. This hack came from tips in [this
+  issue](https://github.com/jupyterhub/jupyterhub/issues/1385).
+
 * `native-login.html` and `signup.html`: Custom NativeAuthenticator login and
   signup pages. Place these files in
 
