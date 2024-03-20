@@ -1,8 +1,8 @@
-# ciceseg-management
+# cclg-management
 
 Files for managing the
-Collaborative Center for Landslides and Ground Failure Geohazards (CICESEG)
-Landslides Modeling Portal,
+Collaborative Center for Landslide Geohazards (CCLG)
+Landslide Modeling Portal (LMP),
 hosted at https://landslides.openearthscape.org.
 
 ## Files
@@ -33,4 +33,4 @@ hosted at https://landslides.openearthscape.org.
 
 ## Acknowledgments
 
-CICESEG is supported with funding from the U.S. National Science Foundation.
+CCLG and CSDMS are supported with funding from the U.S. National Science Foundation.
